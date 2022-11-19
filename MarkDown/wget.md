@@ -1,8 +1,8 @@
 ## wget linux command
 
 wget is a non-interactive command line program for file downloading. It is useful for 
-downloading content from web and FTP sites. It has options that allow reecursive 
-download, background download and complete download of partially downloaded files.
+downloading content from web and FTP sites. It has options that allow recursive 
+downloads, background downloads and complete downloading of partially downloaded files.
 
 It can also follow links in HTML, CSS and XML pages, to create local versions of 
 remote web sites, fully recreating redirectory structure of original site i.e., 
@@ -10,7 +10,14 @@ recursive downloading
 
 It however respects the Robot Exclusion Standard (/robots.txt)
 
-### Examples
+### INSTALLATION
+For Ubuntu run the following command
+```sh
+$ sudo apt install wget
+
+```
+
+### EXAMPLES
 
 #### To download a single file
 
@@ -142,8 +149,8 @@ $ wget -r -A .jpg https://site/with-images/url
 
 ```
 
-### Authors
+## AUTHORS
 Kamau Ngengi - <ourdigitaltimes@gmail.com>
 
-### Sources
-[www.hostinger.com/tutorials/wget-command-examples/] (https://www.hostinger.com/tutorials/wget-command-examples/)
+## SOURCES
+<https://www.hostinger.com/tutorials/wget-command-examples/>
